@@ -15,3 +15,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque archit
 REVIEW 2
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+
+Error 
+postcss --use autoprefixer -b "last 10 versions" css/style.concat.css -o css/style.prefix.css
+https://stackoverflow.com/questions/59977134/autoprefixer-script-doesnt-run-typeerror-patterns-must-be-a-string-or-an-array
+https://github.com/npm/npm/issues/20048
